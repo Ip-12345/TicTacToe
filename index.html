@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TicTacToe</title>
+    <style>
+        body{
+            display: flex;
+            margin: 0;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #fafafa;
+        }
+
+        .board{
+            display: grid;
+            grid-template-columns: repeat(3, 100px);  /* 3columns of 100px*/
+            grid-gap: 10px;
+        }
+
+        .cell{
+            width: 100px;
+            height: 100px;
+            border: 1px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 2rem;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="board"></div>
+    <script src = "script.js"></script>
+</body>
+</html>
